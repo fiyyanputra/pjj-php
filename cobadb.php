@@ -31,6 +31,7 @@
 		if(!mysqli_query($conn, $sql)){
 			die("Error: " .mysqli_query($conn));
 		}		
+		
 	?>
 </body>
 </html>
